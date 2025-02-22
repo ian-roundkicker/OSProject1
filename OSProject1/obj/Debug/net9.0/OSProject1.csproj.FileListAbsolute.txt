@@ -1,0 +1,14 @@
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/bin/Debug/net9.0/OSProject1
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/bin/Debug/net9.0/OSProject1.deps.json
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/bin/Debug/net9.0/OSProject1.runtimeconfig.json
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/bin/Debug/net9.0/OSProject1.dll
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/bin/Debug/net9.0/OSProject1.pdb
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.GeneratedMSBuildEditorConfig.editorconfig
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.AssemblyInfoInputs.cache
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.AssemblyInfo.cs
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.csproj.CoreCompileInputs.cache
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.dll
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/refint/OSProject1.dll
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.pdb
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/OSProject1.genruntimeconfig.cache
+/home/vboxuser/Documents/CodingStuff/OSProject1/OSProject1/obj/Debug/net9.0/ref/OSProject1.dll
