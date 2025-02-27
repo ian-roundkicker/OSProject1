@@ -1,22 +1,42 @@
-﻿
-namespace OSProject1;
+﻿namespace OSProject1;
 class Program
 {
     private static readonly Object _lock = new();
     private static int chopsticks = 3;
     static void Main(string[] args) 
     {
-        Console.WriteLine("This program functions.");
-        Thread[] threads = new Thread[30];
+        int monk_pop;
+        try
+        {
+            Console.WriteLine("Enter the number of monks:");
+            monk_pop = int.Parse(Console.ReadLine());
+            if (monk_pop < 1) {
+                throw new Exception("No monks?");
+            }
+            Console.WriteLine("Enter the number of chopsticks:");
+            chopsticks = int.Parse(Console.ReadLine());
+            if (chopsticks < 1) {
+                throw new Exception("Monastaries don't function.");
+            }
+        }
+        catch (System.Exception)
+        {
+            Console.WriteLine("Improper number entered: Defaults will be used instead");
+            monk_pop = 30;
+            chopsticks = 5;
+        }
+        Thread[] threads = new Thread[monk_pop];
         for (int i = 0; i < threads.Length; i++) 
         {
-            threads[i] = new(() => Work(i+1));
+            int index = i; // initialize a variable to prevent bizarre duplicates or skipped numbers
+            threads[i] = new(() => Work(index+1));
             threads[i].Start();
         }
     }
 
     static void Work(int x) 
     {
+        Console.WriteLine("Monk " + x + " has arrived.");
         Random random = new();
         int decision;
         for (int i = 0; i < 10; i++)
@@ -59,7 +79,7 @@ class Program
             }
             else 
             {
-                Console.WriteLine("Monk " + x + "  is waiting");
+                Console.WriteLine("Monk " + x + "  is meditating");
                 Thread.Sleep(10000);
             }
         }
