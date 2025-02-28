@@ -12,6 +12,6 @@ Deadlock timeout and detection - Monks will go on a pilgrimage if they meditate 
 
 Each monk will partake in 10 activities, and go out on a pilgrimage from which they will never return.
 
-##Instalation and Setup
+##Installation and Setup //note: this is not complete yet.
 1. Clone this repository into Visual Studio Code:
 2. https://github.com/ian-roundkicker/OSProject1.git
