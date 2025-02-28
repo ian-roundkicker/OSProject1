@@ -14,4 +14,4 @@ Each monk will partake in 10 activities, and go out on a pilgrimage from which t
 
 ##Instalation and Setup
 1. Clone this repository into Visual Studio Code:
-2. https://github.com/ian-roundkicker/OSProject1
+2. https://github.com/ian-roundkicker/OSProject1.git
