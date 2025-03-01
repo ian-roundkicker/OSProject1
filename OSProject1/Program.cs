@@ -140,7 +140,7 @@ class Program
                         has_priority = PriorityCheck(x-1);
                         if (has_priority)
                         {
-                            Console.WriteLine("What is this madness? I must save the monastary!");
+                            Console.WriteLine("What is this madness? I must save the monastery!");
                             emergency_eat = true;
                             goto wake_up_label;
                         }
